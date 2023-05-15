@@ -34,7 +34,7 @@ body {
 }
 
 .nav-link {
-    color: rgb(202, 202, 202);
+    color: #cacaca;
 }
 
 .nav-link:hover {
@@ -122,3 +122,53 @@ body {
 .carousel-inner .carousel-item-start { 
     transform: translateX(0);
 }
+
+footer {
+    width: 700px;
+    margin: auto;
+    color: #cacaca;
+    margin-top: 100px;
+}
+
+.my-social i {
+    margin-right: 20px;
+}
+
+.my-footer-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 9pt;
+    margin-top: 20px;
+}
+
+    .my-link-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-link-content span {
+        margin: 5px 0px;
+    }
+
+    .my-link-content a {
+        text-decoration: none;
+        color: #cacaca;
+    }
+
+    .my-last-footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+        .my-last-footer .services {
+            border: 1px solid #cacaca;
+            width: fit-content;
+            padding: 5px;
+        }
+
+        .my-last-footer .info {
+            font-size: 8pt;
+            margin-top: 10px;
+        }
